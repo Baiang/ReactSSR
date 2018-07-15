@@ -1,0 +1,14 @@
+//弹性盒子布局Flex Box
+.box_item {
+    display: flex;
+    box-orient:horizontal;
+}
+.box_item .item {
+    box-flex: 1.0;
+}
+.box_item .item2 {
+    box-flex: 2.0;
+}
+.box_item .item3 {
+    box-flex: 3.0;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1531205779068" clover="3.2.0">
+  <project timestamp="1531205779068" name="All files">
+    <metrics statements="10" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="3" elements="17" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="5" files="7" classes="7">
+      <package name="doooly_web2.0">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="jest.setup.js" path="F:\website\doooly_web2.0\jest.setup.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="doooly_web2.0.src.components">
+        <metrics statements="5" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="Footer.jsx" path="F:\website\doooly_web2.0\src\components\Footer.jsx">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+        <file name="Header.jsx" path="F:\website\doooly_web2.0\src\components\Header.jsx">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+        <file name="Layout.jsx" path="F:\website\doooly_web2.0\src\components\Layout.jsx">
+          <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="doooly_web2.0.src.pages">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="index.jsx" path="F:\website\doooly_web2.0\src\pages\index.jsx">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="131" count="18" type="stmt"/>
+        </file>
+      </package>
+      <package name="doooly_web2.0.src.static.css.base">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="common.scss" path="F:\website\doooly_web2.0\src\static\css\base\common.scss">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="doooly_web2.0.src.static.css.lib.bootstrap-dist.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="bootstrap.min.css" path="F:\website\doooly_web2.0\src\static\css\lib\bootstrap-dist\css\bootstrap.min.css">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
