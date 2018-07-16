@@ -4,10 +4,10 @@
 **背景：** 在使用react中，缺乏像vue-cli一样的模板，拥有健全的打包工具、esLint代码检测、单元测试、代码分析等等，对于新手来说，不适合立马上手和开发。
 
 ### 技术栈
-- next.js
-- styled-jsx+sass
-- eslint
-- jest单元测试
+- next.js：React的SSR服务端渲染方案。
+- styled-jsx+sass：css-in-js的解决方案，快速编写css，简单易上手。
+- eslint：语法规则和代码风格的检查工具，可以用来保证写出语法正确、风格统一的代码。
+- jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
 
 ### 语法高亮
 styled-jsx的语法高亮可以到github styled-jsx生查看文档，进行设置 https://github.com/zeit/styled-jsx
