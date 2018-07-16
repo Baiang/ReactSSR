@@ -2,6 +2,7 @@
 node_modules/
 resources/
 .github/
+build/
 
 # Editor directories and files
 .idea
