@@ -1,5 +1,5 @@
 # React的SSR服务端渲染方案
-基于next.js React的SSR服务端渲染方案。
+基于next.js React的SSR服务端渲染方案
 
 ### 技术栈
 - next.js
