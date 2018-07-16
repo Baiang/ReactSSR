@@ -9,17 +9,16 @@
 - eslint：语法规则和代码风格的检查工具，可以用来保证写出语法正确、风格统一的代码。
 - jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
 
-### 语法高亮
-styled-jsx的语法高亮可以到github styled-jsx生查看文档，进行设置 https://github.com/zeit/styled-jsx
-
 ### Eslint规范
 我们现在使用的是Standard规范。Eslint提供两种规范：
 - Standard (https://github.com/standard/standard)
 - Airbnb (https://github.com/airbnb/javascript)
 
-
 ### 单元测试
 基于Jest + Enzyme 的 React 单元测试
+
+### 语法高亮
+styled-jsx的语法高亮可以到github styled-jsx生查看文档，进行设置 https://github.com/zeit/styled-jsx
 
 ### 后续更新计划
 - 优化服务端缓存
