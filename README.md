@@ -21,6 +21,10 @@ styled-jsx的语法高亮可以到github styled-jsx生查看文档，进行设�
 ### 单元测试
 基于Jest + Enzyme 的 React 单元测试
 
+### 后续更新计划
+- 优化服务端缓存
+- postcss扩展
+
 ## 更新
 
 ### 1.6更新内容
