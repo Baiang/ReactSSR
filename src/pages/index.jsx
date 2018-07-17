@@ -30,7 +30,7 @@ class Index extends Component {
   }
   render () {
     return (
-      <Layout title="兜礼首页222">
+      <Layout title="兜礼首页">
         <div className="f-tac"><img src="./static/images/ad.png" alt=""/></div>
         <div>
           <div className="container">

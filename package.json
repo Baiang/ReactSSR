@@ -57,6 +57,8 @@
     "jest-transform-stub": "^1.0.0",
     "next-compose-plugins": "^2.1.1",
     "open-browser-webpack-plugin": "^0.0.5",
+    "postcss-import": "^11.1.0",
+    "postcss-url": "^7.3.2",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.2.0",
     "styled-jsx-plugin-sass": "^0.2.4",
@@ -67,6 +69,7 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
+    "last 2 versions",
+    "not ie <= 8"
   ]
 }
