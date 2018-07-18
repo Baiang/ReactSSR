@@ -6,7 +6,8 @@
      { "plugins": ["styled-jsx-plugin-sass"] }
    ],
    "inline-react-svg",
-   "react-html-attrs"
+   "react-html-attrs",
+   "transform-decorators-legacy"
  ],
  "env": {
    "test": {

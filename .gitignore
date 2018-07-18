@@ -1,5 +1,6 @@
 .DS_Store
 yarn.lock
+.next
 node_modules/
 resources/
 .github/

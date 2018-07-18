@@ -5,15 +5,17 @@
 
 ### 构建启动
 
-```
+```bash
+# 下载
+> git clone git@github.com:Baiang/ReactSSR.git
 # 安装
-npm install
+> npm install
 
 # 启动
-npm run dev
+> npm run dev
 
 # 代码检测及格式化代码
-npm run eslint
+> npm run eslint
 
 ```
 
