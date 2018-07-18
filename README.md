@@ -3,6 +3,21 @@
 
 **背景：** 在使用react中，缺乏像vue-cli一样的模板，拥有健全的打包工具、esLint代码检测、单元测试、代码分析等等，对于新手来说，不适合立马上手和开发。
 
+### 构建启动
+
+```
+# 安装
+npm install
+
+# 启动
+npm run dev
+
+# 代码检测及格式化代码
+npm run eslint
+
+```
+
+
 ### 技术栈
 - next.js：React的SSR服务端渲染方案。
 - styled-jsx+sass：css-in-js的解决方案，简单易上手,快速编写css样式。
