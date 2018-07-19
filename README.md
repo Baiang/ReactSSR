@@ -18,7 +18,7 @@
 # eslint代码检测及prettier格式化代码
 > npm run eslint
 
-# 自带eslint代码检测及prettier格式化代码
+# 自动eslint代码检测及prettier格式化代码
 > npm run lint:watch
 
 # 单元测试及覆盖率测试
