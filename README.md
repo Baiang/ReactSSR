@@ -18,6 +18,17 @@
 # eslint代码检测及prettier格式化代码
 > npm run eslint
 
+# 自带eslint代码检测及prettier格式化代码
+> npm run lint:watch
+
+# 单元测试及覆盖率测试
+> npm run test
+
+# 打包文件
+> npm run build
+
+# 启动服务器
+> npm run start
 ```
 
 
