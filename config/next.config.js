@@ -16,6 +16,7 @@ const { ANALYZE } = process.env;
 
 let isDev = true;
 
+
 const nextConfig = {
   distDir: '../build',
   // custom webpack config
@@ -82,8 +83,6 @@ const nextConfig = {
   }
 }
 
-module.exports = withPlugins([
-	withTypescript,
-  withCss,
-	withSass
-], nextConfig)
+module.exports = withTypescript(withCss(withSass(
+  nextConfig
+)))

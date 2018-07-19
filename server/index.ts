@@ -3,18 +3,14 @@ import { parse } from 'url'
 import * as next from 'next'
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== 'production'
-// const conf = require('../src/next.config.js')
-// console.log(111, conf)
+const conf = require('../config/next.config.js')
 
 const app = next({
   dev,
+  conf,
   dir:'./src'
 })
 const handle = app.getRequestHandler()
-
-
-
-//console.log(app)
 
 app.prepare()
 .then(() => {
