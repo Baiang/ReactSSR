@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next src",
+    "dev": "nodemon server/index.ts",
+    "dev:test": "nodemon server/index.ts",
     "dev:eslint": "cross-env ANALYZE=ESLINT next src",
     "build": "next build src",
     "start": "next start src",
@@ -57,6 +58,7 @@
     "jest": "22.0.1",
     "jest-transform-stub": "^1.0.0",
     "next-compose-plugins": "^2.1.1",
+    "nodemon": "^1.18.3",
     "open-browser-webpack-plugin": "^0.0.5",
     "postcss-import": "^11.1.0",
     "postcss-url": "^7.3.2",
@@ -64,6 +66,9 @@
     "react-test-renderer": "16.2.0",
     "styled-jsx-plugin-sass": "^0.2.4",
     "styled-jsx-postcss": "^0.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
+    "typescript-babel-jest": "^1.0.5",
     "url-loader": "^1.0.1",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-bundle-size-analyzer": "^2.7.0"
