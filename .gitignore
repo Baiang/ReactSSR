@@ -1,6 +1,7 @@
 .DS_Store
 yarn.lock
 .next
+npm-debug.log
 node_modules/
 resources/
 .github/

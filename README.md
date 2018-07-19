@@ -15,7 +15,7 @@
 # 启动
 > npm run dev
 
-# 代码检测及格式化代码
+# eslint代码检测及prettier格式化代码
 > npm run eslint
 
 ```
