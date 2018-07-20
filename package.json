@@ -7,7 +7,7 @@
     "dev": "nodemon server/index.ts",
     "dev:eslint": "cross-env ANALYZE=ESLINT next src",
     "build": "next build src && tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node build/production-server/index.js",
+    "start": "cross-env NODE_ENV=production node build/production-server/server/index.js",
     "analyze:bundles": "cross-env ANALYZE=BUNDLES next build src",
     "analyze:size": "cross-env ANALYZE=SIZE next build src",
     "eslint": "eslint --fix --ext .jsx,.tsx src/",
