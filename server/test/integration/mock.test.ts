@@ -2,7 +2,7 @@ import supertest from 'supertest';
 import httpStatus from 'http-status';
 import app from '../../index';
 
-describe('## Mock', () => {
+/*describe("## Mock", () => {
   const request = supertest(app.listen());
 
   describe('# GET /api/get-welcome', () => {
@@ -17,4 +17,4 @@ describe('## Mock', () => {
       expect(data).toBe('Hello, OLAF!');
     });
   });
-});
+});*/
