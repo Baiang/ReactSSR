@@ -24,9 +24,9 @@ const nextApp = next({
 console.log(111, router)
 
 const handle = nextApp.getRequestHandler();
-// router.nextRoute(handle);
+router.nextRoute(handle);
 const app = new Koa();
-/*
+
 app.use(logger());
 app.use(bodyParser());
 app.use(requestId());
@@ -50,6 +50,6 @@ if (!module.parent) {
   app.use(router.routes());
   app.use(router.allowedMethods());
 }
-app.on('error', err => log.error(`Unhandled exception occured. message: ${err.message}`));*/
+app.on('error', err => log.error(`Unhandled exception occured. message: ${err.message}`));
 
 export default app;
