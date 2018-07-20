@@ -7,9 +7,10 @@ import logger from 'koa-logger';
 
 import * as log from './helpers/log';
 import config from '../config/config.global';
-import requestId from './middleware/requestId';
+// import requestId from './middleware/requestId';
+import requestId from 'koa-requestid';
 import responseHandler from './middleware/responseHandler';
-import * as router from './routes';
+import router from './routes';
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
 const dev = process.env.NODE_ENV !== 'production';
@@ -20,8 +21,6 @@ const nextApp = next({
   conf,
   dir:'./src'
 });
-
-console.log(111, router)
 
 const handle = nextApp.getRequestHandler();
 router.nextRoute(handle);

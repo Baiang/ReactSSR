@@ -57,6 +57,8 @@
     "file-loader": "^1.1.11",
     "jest": "22.0.1",
     "jest-transform-stub": "^1.0.0",
+    "koa-requestid": "^2.0.1",
+    "koa-router": "^7.4.0",
     "nodemon": "^1.18.3",
     "open-browser-webpack-plugin": "^0.0.5",
     "postcss-import": "^11.1.0",

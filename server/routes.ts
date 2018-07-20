@@ -12,6 +12,6 @@ router.nextRoute = (handle) => {
   });
 };
 
-console.log(router)
 
-export default router;
+export default router
+// module.exports = router;
