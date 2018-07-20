@@ -11,7 +11,7 @@ import config from '../config/config.global';
 import requestId from 'koa-requestid';
 import responseHandler from './middleware/responseHandler';
 import router from './routes';
-import conf from '../config/next.config.js';
+// import conf from '../config/next.config.js';
 
 const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
 const dev = process.env.NODE_ENV !== 'production';
@@ -19,7 +19,6 @@ const dev = process.env.NODE_ENV !== 'production';
 
 const nextApp = next({
   dev,
-  conf,
   dir:'./src'
 });
 
