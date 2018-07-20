@@ -1,6 +1,6 @@
 // This is the Link API
 import React, { Component } from 'react'
-import Layout from '../index.jsx'
+import Layout from '../index'
 
 class Index extends Component {
   constructor (props) {

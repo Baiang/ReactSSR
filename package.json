@@ -11,8 +11,8 @@
     "start": "next start src",
     "analyze:bundles": "cross-env ANALYZE=BUNDLES next build src",
     "analyze:size": "cross-env ANALYZE=SIZE next build src",
-    "eslint": "eslint --fix --ext .jsx src/",
-    "lint:watch": "esw -w --fix --ext .js,.jsx,.tsx src/pages src/components",
+    "eslint": "eslint --fix --ext .jsx,.tsx src/",
+    "lint:watch": "esw -w --fix --ext .jsx,.tsx src/",
     "test": "jest"
   },
   "keywords": [],
