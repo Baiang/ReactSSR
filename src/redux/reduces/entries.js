@@ -1,7 +1,7 @@
 import { fromJS } from 'immutable';
 
 import { actionTypes } from '../actions/entries';
-import { allDescriptionType } from '../../index.jsx';
+import { allDescriptionType } from '../../index.tsx';
 
 const initialStateSelectedDescription = allDescriptionType[0];
 export const selectedDescription = (state = initialStateSelectedDescription, action = {}) => {
