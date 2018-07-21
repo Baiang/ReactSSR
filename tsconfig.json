@@ -22,5 +22,12 @@
       "es2015",
       "es2016"
     ]
-  }
+  },
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "**/*.spec.tsx",
+      "**/*.test.ts",
+      "**/*.test.tsx",
+    ]
 }
