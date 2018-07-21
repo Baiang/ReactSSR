@@ -157,7 +157,7 @@ class Index extends Component {
                 margin-top: 50px;
                 width: 100%;
                 height: 500px;
-                background: url("../static/images/advantage/advantage_bg.png")
+                background: url("/static/images/advantage/advantage_bg.png")
             }
             .advantage_title{
               padding:70px 0 80px;
@@ -176,7 +176,7 @@ class Index extends Component {
             .partner_box{
               width: 100%;
               height: 480px;
-              background: url("../static/images/content_2_bg.png");
+              background: url("/static/images/content_2_bg.png");
             }
             .con_partner ul{
               list-style:none;
