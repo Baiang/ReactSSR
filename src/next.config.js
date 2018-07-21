@@ -40,8 +40,8 @@ const nextConfig = {
     config.entry = async () => {
       const entries = await originalEntry()
 
-      if (entries['main.js'] && !entries['main.js'].includes('./utils/polyfills.js')) {
-        entries['main.js'].unshift('./utils/polyfills.js')
+      if (entries['main.js'] && !entries['main.js'].includes('./utils/polyfills.ts')) {
+        entries['main.js'].unshift('./utils/polyfills.ts')
       }
 
       return entries
