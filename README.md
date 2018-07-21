@@ -3,6 +3,15 @@
 
 **背景：** 在使用react中，缺乏像vue-cli一样的模板，拥有健全的打包工具、esLint代码检测、单元测试、代码分析等等，对于新手来说，不适合立马上手和开发。
 
+### 特色
+- koa：集成koa后端架构。
+- next.js：React的SSR服务端渲染方案。
+- styled-jsx+sass：css-in-js的解决方案，简单易上手,快速编写css样式。
+- 语法检测：eslint语法规则检测和prettier代码风格的检查工具，可以用来保证写出语法正确、风格统一的代码。
+- jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
+- 语法兼容性：支持React中className和class两种样式写法；css、sass、styled-jsx支持autoprefixer前缀自动补齐
+- 打包分析：支持打包分析 npm run analyze:bundles
+
 ### 构建应用
 
 ```bash
@@ -31,16 +40,6 @@
 > npm run start
 ```
 
-
-### 特色
-- next.js：React的SSR服务端渲染方案。
-- styled-jsx+sass：css-in-js的解决方案，简单易上手,快速编写css样式。
-- eslint：语法规则和代码风格的检查工具，可以用来保证写出语法正确、风格统一的代码。
-- prettier：代码风格格式化工具，极大让编写代码自由化。
-- jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
-- 标签语法：支持React中className和class两种样式写法
-- 打包分析：支持打包分析 npm run analyze:bundles
-- autoprefixer：css、sass、styled-jsx支持autoprefixer前缀自动补齐
 
 ### Eslint规范
 我们现在使用的是Standard规范。Eslint提供两种规范：
