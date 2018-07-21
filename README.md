@@ -6,7 +6,7 @@
 ### 特色
 - koa：集成koa后端架构。
 - next.js：React的SSR服务端渲染方案。
-- styled-jsx+sass：css-in-js的解决方案，简单易上手,快速编写css样式。
+- css-in-js：styled-jsx+sass的解决方案，简单易上手,快速编写css样式。
 - 语法检测：eslint语法规则检测和prettier代码风格的检查工具，可以用来保证写出语法正确、风格统一的代码。
 - jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
 - 语法兼容性：支持React中className和class两种样式写法；css、sass、styled-jsx支持autoprefixer前缀自动补齐
