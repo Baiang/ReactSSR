@@ -36,6 +36,9 @@
 # 打包文件
 > npm run build
 
+# 带有模块分析的打包
+> npm run analyze:bundles
+
 # 启动服务器
 > npm run start
 ```

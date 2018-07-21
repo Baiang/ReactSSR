@@ -8,6 +8,7 @@ const {  WebpackBundleSizeAnalyzerPlugin } = require('webpack-bundle-size-analyz
 const withTypescript = require('@zeit/next-typescript')
 const withSass = require('@zeit/next-sass')
 const withCss = require('@zeit/next-css')
+const withSourceMaps = require('@zeit/next-source-maps')
 
 
 const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
@@ -83,6 +84,6 @@ const nextConfig = {
   }
 }
 
-module.exports = withTypescript(withCss(withSass(
+module.exports = withTypescript(withCss(withSass(withSourceMaps(
   nextConfig
-)))
+))))
