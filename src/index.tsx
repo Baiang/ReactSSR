@@ -13,7 +13,6 @@ export default ({ children, title = '兜礼' }) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="icon" href="/static/favicon.ico" />
       <link rel="stylesheet" href="/_next/static/style.css" />
-      <script src="/static/js/babel-polyfill/polyfill.min.js"></script>
     </Head>
     <Header />
     { children }

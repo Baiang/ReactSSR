@@ -17,7 +17,6 @@ const { ANALYZE } = process.env;
 
 let isDev = true;
 
-
 const nextConfig = {
   distDir: '../build',
   // custom webpack config
@@ -37,6 +36,16 @@ const nextConfig = {
         break;
     }
 
+    const originalEntry = config.entry
+    config.entry = async () => {
+      const entries = await originalEntry()
+
+      if (entries['main.js'] && !entries['main.js'].includes('./utils/polyfills.js')) {
+        entries['main.js'].unshift('./utils/polyfills.js')
+      }
+
+      return entries
+    }
 
     config.module.rules.push({
       test: /\.(png|jpg|svg|eot|otf|ttf|woff|woff2)$/,
