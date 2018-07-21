@@ -1,11 +1,11 @@
-# 基于next.js+koa React的SSR服务端渲染方案
+# 基于Next.js+koa React的SSR服务端渲染方案
 > reactSSR基于next.js+koa React的SSR服务端渲染方案，简单易上手，开箱即用。
 
-**背景：** 在使用react中，缺乏像vue-cli一样的简单上手模板，egg企业级架构及代码规范，对于应用，不适合大型应用开发；对于新手来说，不适合立马上手和开发。
+**背景：** 在使用react中，缺乏像vue-cli一样脚手架工具，egg企业级架构及代码规范，对于应用，不适合大型应用开发；对于新手来说，不适合立马上手。
 
 ### 特色
 - koa：集成koa后端架构。
-- next.js：React的SSR服务端渲染方案。
+- Next.js：React的SSR服务端渲染方案。
 - css-in-js：styled-jsx+sass的解决方案，简单易上手,快速编写css样式。
 - 代码语法：eslint语法规则检测和prettier代码风格的检查工具，集成TypeScript，让语法更严谨、代码风格统一化。
 - jest单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
