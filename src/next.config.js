@@ -65,7 +65,7 @@ const nextConfig = {
 
       if(ANALYZE === 'ESLINT'){
         config.module.rules.push({
-          test: /\.jsx$/,
+          test: /\.(jsx|tsx)$/,
           enforce: "pre",
           loader: "eslint-loader",
           exclude: ['/node_modules/', '/build/'],
