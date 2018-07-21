@@ -1,4 +1,4 @@
-import Layout from '../index.jsx'
+import Layout from '../index'
 
 export default () => (
   <Layout title="关于我们">
