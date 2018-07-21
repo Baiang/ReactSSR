@@ -14,4 +14,3 @@ router.nextRoute = (handle) => {
 
 
 export default router
-// module.exports = router;
