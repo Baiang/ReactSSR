@@ -1,5 +1,5 @@
 # 基于Next.js+koa React的SSR服务端渲染方案
-> reactSSR基于next.js+koa React的SSR服务端渲染方案，简单易上手，开箱即用。
+> ReactSSR基于Next.js+koa React的SSR服务端渲染方案，简单易上手，开箱即用。
 
 **背景：** 在使用react中，缺乏像vue-cli一样脚手架工具，egg企业级架构及代码规范，对于应用，不适合大型应用开发；对于新手来说，不适合立马上手。
 
