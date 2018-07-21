@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import './static/css/lib/bootstrap-dist/css/bootstrap.min.css'
-import './static/css/base/common.scss'
+import './static/styles/lib/bootstrap-dist/css/bootstrap.min.css'
+import './static/styles/base/common.scss'
 
 export default ({ children, title = '兜礼' }) => (
   <div className="App">
