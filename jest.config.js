@@ -4,7 +4,7 @@ module.exports = {
   setupFiles: ['<rootDir>/jest.setup.js'],
   testRegex: TEST_REGEX,
   transform: {
-    '^.+\\.jsx?$': 'babel-jest',
+    '^.+\\.(jsx|tsx)?$': 'babel-jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
   testPathIgnorePatterns: [
