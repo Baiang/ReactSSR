@@ -1,6 +1,5 @@
 /* eslint-disable */
 const path = require('path')
-const withPlugins = require('next-compose-plugins')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const {  WebpackBundleSizeAnalyzerPlugin } = require('webpack-bundle-size-analyzer');
