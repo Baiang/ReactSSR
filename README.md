@@ -45,7 +45,7 @@
 
 
 ### Eslint规范
-我们现在使用的是Standard规范。Eslint提供两种规范：
+使用的是Standard规范，也可以选择Airbnb。Eslint提供两种规范：
 - Standard (https://github.com/standard/standard)
 - Airbnb (https://github.com/airbnb/javascript)
 
