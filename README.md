@@ -4,7 +4,7 @@
 **背景：** 在使用react中，缺乏像vue-cli一样脚手架工具，egg企业级架构及代码规范，对于应用，不适合大型应用开发；对于新手来说，不适合立马上手。
 
 ### 特色
-- koa：集成koa后端架构。
+- koa：集成koa后端架构（计划开发可选egg）。
 - Next.js：React的SSR服务端渲染方案。
 - css-in-js：styled-jsx+sass的解决方案，简单易上手,快速编写css样式。
 - 代码语法：eslint语法规则检测和prettier代码风格的检查工具，集成TypeScript，让语法更严谨、代码风格统一化。
