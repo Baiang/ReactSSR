@@ -52,8 +52,8 @@
 ### 单元测试
 基于Jest + Enzyme 的 React 单元测试
 
-### 语法高亮
-styled-jsx的语法高亮可以到github styled-jsx生查看文档，进行设置 https://github.com/zeit/styled-jsx
+### 编辑器语法高亮
+styled-jsx的语法高亮可以到styled-jsx查看文档进行设置 https://github.com/zeit/styled-jsx
 
 ### 后续更新计划
 - 增加egg
