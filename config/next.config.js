@@ -10,7 +10,6 @@ const withSass = require('@zeit/next-sass')
 const withCss = require('@zeit/next-css')
 const withSourceMaps = require('@zeit/next-source-maps')
 
-
 const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
 
 const { ANALYZE } = process.env;

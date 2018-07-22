@@ -27,7 +27,7 @@ const handle = nextApp.getRequestHandler();
 router.nextRoute(handle);
 const app = new Koa();
 
-app.use(logger());
+!dev ? app.use(logger()) : '';
 app.use(bodyParser());
 app.use(requestId());
 app.use(helmet());
