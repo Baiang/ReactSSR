@@ -6,6 +6,7 @@
 ### 特色
 - koa：集成koa后端架构（计划开发可选egg）。
 - Next.js：React的SSR服务端渲染方案。
+- css编译器：支持引入less、sass、css开发，外部资源引用。
 - css-in-js：styled-jsx+sass的解决方案，简单易上手,快速编写css样式。
 - 代码语法：eslint语法规则检测和prettier代码风格的检查工具，集成TypeScript，让语法更严谨、代码风格统一化。
 - 单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
