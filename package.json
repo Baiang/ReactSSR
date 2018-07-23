@@ -29,6 +29,7 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
+    "@zeit/next-less": "^0.3.0",
     "@zeit/next-source-maps": "^0.0.2",
     "@zeit/next-typescript": "^1.1.0",
     "autoprefixer": "^8.6.5",
@@ -69,6 +70,7 @@
     "koa-logger": "^3.2.0",
     "koa-requestid": "^2.0.1",
     "koa-router": "^7.4.0",
+    "less": "^3.8.0",
     "nodemon": "^1.18.3",
     "open-browser-webpack-plugin": "^0.0.5",
     "postcss-import": "^11.1.0",

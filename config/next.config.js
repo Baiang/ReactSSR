@@ -7,6 +7,7 @@ const {  WebpackBundleSizeAnalyzerPlugin } = require('webpack-bundle-size-analyz
 
 const withTypescript = require('@zeit/next-typescript')
 const withSass = require('@zeit/next-sass')
+const withLess = require('@zeit/next-less')
 const withCss = require('@zeit/next-css')
 const withSourceMaps = require('@zeit/next-source-maps')
 
@@ -92,10 +93,10 @@ const nextConfig = {
     }
     // Add support for both css and scss
     // https://github.com/zeit/next-plugins/issues/127
-    return commonsChunkConfig(config, /\.(sass|scss|css)$/)
+    return commonsChunkConfig(config, /\.(less|sass|scss|css)$/)
   }
 }
 
-module.exports = withTypescript(withCss(withSass(withSourceMaps(
+module.exports = withTypescript(withCss(withSass(withLess(withSourceMaps(
   nextConfig
-))))
+)))))
