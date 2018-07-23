@@ -13,7 +13,7 @@
     "analyze:size": "cross-env ANALYZE=SIZE next build src",
     "eslint": "eslint --fix --ext .jsx,.tsx src/",
     "lint:watch": "esw -w --fix --ext .jsx,.tsx src/",
-    "test": "cross-env NODE_ENV=test jest --config test/jest.config.js"
+    "test": "cross-env NODE_ENV=test jest"
   },
   "keywords": [],
   "author": "wiwi",

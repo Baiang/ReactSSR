@@ -12,7 +12,7 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
   testPathIgnorePatterns: [
-    '<rootDir>/test/.next/', '<rootDir>/test/node_modules/', '<rootDir>/test/build/'
+    '<rootDir>/.next/', '<rootDir>/node_modules/', '<rootDir>/build/'
   ],
   moduleFileExtensions: [
     'ts', 'tsx', 'js', 'jsx'
@@ -21,5 +21,5 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   coverageDirectory: '<rootDir>/test/coverage',
-  collectCoverage: true
+  collectCoverage: true,
 }
