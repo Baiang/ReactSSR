@@ -63,6 +63,7 @@ const nextConfig = {
     };
 
     if(isDev){
+      console.log(1111, process.argv[2])
       config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000' }));
 
     }
