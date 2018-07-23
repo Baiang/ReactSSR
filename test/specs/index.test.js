@@ -4,7 +4,7 @@ import { shallow } from 'enzyme'
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import App from '../src/pages/index.tsx'
+import App from '../../src/pages/index.tsx'
 
 describe('Home', () => {
   it('App Home', () => {

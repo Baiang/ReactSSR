@@ -6,7 +6,7 @@ node_modules/
 resources/
 .github/
 build/
-__tests__/coverage
+test/coverage
 
 # Editor directories and files
 .idea
