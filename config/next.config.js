@@ -1,6 +1,7 @@
 /* eslint-disable */
 const path = require('path')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
+const jsonfile = require('jsonfile');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const {  WebpackBundleSizeAnalyzerPlugin } = require('webpack-bundle-size-analyzer');
 
@@ -63,9 +64,12 @@ const nextConfig = {
     };
 
     if(isDev){
-      console.log(1111, process.argv[2])
-      config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000' }));
-
+      const file = 'config/.conf.json';
+      const obj = jsonfile.readFileSync(file);
+      if(obj.opne){
+        jsonfile.writeFile(file, {"opne": false})
+        config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000' }));
+      }
     }
     if (dev) {
       config.devtool = 'cheap-module-source-map'

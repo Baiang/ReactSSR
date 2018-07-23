@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/index.ts -- aa",
+    "dev": "rimraf \"config/.conf.json\" && cpx \"server/helpers/.conf.json\" \"config/\" && nodemon server/index.ts",
     "dev:eslint": "cross-env ANALYZE=ESLINT next src",
     "build": "cpx \"config/next.config.js\" \"src/\" -C && delay 1 && npm run build:src && rimraf \"src/next.config.js\"",
     "build:src": "next build src && tsc --project tsconfig.server.json",

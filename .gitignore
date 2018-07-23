@@ -6,6 +6,7 @@ node_modules/
 resources/
 .github/
 build/
+config/.conf.json
 test/coverage
 
 # Editor directories and files
