@@ -7,7 +7,7 @@
 - koa：集成koa后端架构（计划开发可选egg）。
 - SSR渲染：使用Next.js SSR渲染方案，让开发更简单，更酷。
 - css编译器：支持引入less、sass、css开发，外部资源引用。
-- css-in-js：styled-jsx+sass的解决方案，简单易上手,快速编写css样式。
+- css-in-js：styled-jsx集成sass的解决方案，简单易上手，快速编写css样式。
 - 代码语法：eslint语法规则检测和prettier代码风格的检查工具，集成TypeScript，让语法更严谨、代码风格统一化。
 - 单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
 - 语法兼容：支持React中className和class两种样式写法；css、sass、less、styled-jsx支持autoprefixer前缀自动补齐
