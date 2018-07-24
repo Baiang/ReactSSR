@@ -1,63 +1,63 @@
-# 基于Next.js+koa React的SSR服务端渲染方案
-> ReactSSR基于Next.js+koa React的SSR服务端渲染方案，简单易上手，开箱即用。
+# server-side rendering（SSR） scheme based on Next.js+Koa React
+> ReactSSR is based on Next.js+koa React's SSR server-side rendering solution, which is easy to use and works out of the box.
 
-**背景：** 在使用react中，缺乏像vue-cli一样脚手架工具，egg企业级架构及代码规范；对于新手来说，不适合立马上手。
+**Background：** In the use of react, there is no scaffolding tool like vue-cli, egg enterprise architecture and code specification; for novices, it is not suitable for immediate action.
 
-### 特色
-- koa：集成koa后端架构（计划开发可选egg）。
-- SSR渲染：使用Next.js SSR渲染方案，让开发更简单，更酷。
-- css编译器：支持引入less、sass、css开发，外部资源引用。
-- css-in-js：styled-jsx集成sass的解决方案，简单易上手，快速编写css样式。
-- 代码语法：eslint语法规则检测和prettier代码风格的检查工具，集成TypeScript，让语法更严谨、代码风格统一化。
-- 单元测试：jest, 极大的降低写单元测试的难度，无需更多的配置。
-- 语法兼容：支持React中className和class两种样式写法；css、sass、less、styled-jsx支持autoprefixer前缀自动补齐
-- 代码优化：支持打包模块分析 npm run analyze:bundles；source Maps。
+### Features
+- Koa: Integrated koa backend architecture (planned to develop optional egg).
+- Server-Side Rendering (SSR): Use the Next.js SSR rendering scheme to make development simpler and cooler.
+- Css compiler: support for the introduction of less, sass, css development, external resource references.
+- Css-in-js: styled-jsx integrated sass solution, easy to use, quickly write css style.
+- Code syntax: eslint grammar rule detection and prettier code style checking tools, integrated TypeScript, to make the grammar more - rigorous, code style unified.
+- Unit test: jest, greatly reducing the difficulty of writing unit tests, no need for more configuration.
+- Grammatical compatibility: support React className and class two styles; css, sass, less, styled-jsx support autoprefixer prefix auto-fill
+- Code optimization: support package module analysis npm run analyze: bundles; source Maps.
 
-### 构建应用
+### Quick Start
 
 ```bash
-# 下载
+# git clone
 > git clone git@github.com:Baiang/ReactSSR.git
 
-# 安装
+# install
 > npm install
 
-# 启动
+# dev
 > npm run dev
 
-# eslint代码检测及prettier格式化代码
+# Eslint code detection and prettier formatting code
 > npm run eslint
 
-# 自动eslint代码检测及prettier格式化代码
+# Automatic eslint code detection and prettier formatting code
 > npm run lint:watch
 
-# 单元测试及覆盖率测试
+# Unit test and coverage test
 > npm run test
 
-# 打包文件
+# build
 > npm run build
 
-# 带有模块分析的打包
+# analyze:bundles
 > npm run analyze:bundles
 
-# 启动服务器
+# Start the server
 > npm run start
 ```
 
 
-### Eslint规范
-使用的是Standard规范，也可以选择Airbnb。Eslint提供两种规范：
+### Eslint
+You can use the Standard specification or you can choose Airbnb. Eslint offers two specifications:
 - Standard (https://github.com/standard/standard)
 - Airbnb (https://github.com/airbnb/javascript)
 
-### 单元测试
-基于Jest + Enzyme 的 React 单元测试
+### unit test
+React unit test based on Jest + Enzyme
 
-### 编辑器语法高亮
-styled-jsx的语法高亮可以到styled-jsx查看文档进行设置 https://github.com/zeit/styled-jsx
+### Editor syntax highlighting
+Styled-jsx syntax highlighting method https://github.com/zeit/styled-jsx
 
-### 后续更新计划
-- 增加egg
-- 增加dva
-- 增加CDN
-- 支持vue-ssr切换
+### Update plan
+- Add egg
+- Add dva
+- Add CDN
+- Support vue-ssr switch
