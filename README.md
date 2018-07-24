@@ -3,6 +3,10 @@
 
 **Background：** In the use of react, there is no scaffolding tool like vue-cli, egg enterprise architecture and code specification; for novices, it is not suitable for immediate action.
 
+### Doc
+- 中文
+- English
+
 ### Features
 - Koa: Integrated koa backend architecture (planned to develop optional egg).
 - Server-Side Rendering (SSR): Use the Next.js SSR rendering scheme to make development simpler and cooler.
@@ -50,7 +54,7 @@ You can use the Standard specification or you can choose Airbnb. Eslint offers t
 - Standard (https://github.com/standard/standard)
 - Airbnb (https://github.com/airbnb/javascript)
 
-### unit test
+### Unit test
 React unit test based on Jest + Enzyme
 
 ### Editor syntax highlighting
