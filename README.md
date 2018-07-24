@@ -60,7 +60,7 @@ React unit test based on Jest + Enzyme
 ### Editor syntax highlighting
 Styled-jsx syntax highlighting method https://github.com/zeit/styled-jsx
 
-### Update plan
+### TODOs
 - Add egg
 - Add dva
 - Add CDN
