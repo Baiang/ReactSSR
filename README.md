@@ -59,4 +59,5 @@ styled-jsx的语法高亮可以到styled-jsx查看文档进行设置 https://git
 ### 后续更新计划
 - 增加egg
 - 增加dva
+- 增加CDN
 - 支持vue-ssr切换
