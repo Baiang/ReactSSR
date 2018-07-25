@@ -4,7 +4,7 @@
 **Background：** In the use of react, there is no scaffolding tool like vue-cli, egg enterprise architecture and code specification; for novices, it is not suitable for immediate action.
 
 ### Doc
-- [中文](https://github.com/Baiang/ReactSSR/blob/master/zh.md)
+- [中文](https://github.com/Baiang/ReactSSR/blob/master/README_zh.md)
 - English
 
 ### Features
