@@ -1,7 +1,7 @@
 # React Server-Side Rendering（SSR） scheme based on Next.js+Koa
 > React Server-Side Rendering solution bases on Next.js+koa is easy to use out of the box.
 
-**Background：** There is lacking of related scaffolding tools like vue-cli, enterprise frameworks like egg and code specifications. For novices, it is not suitable for using it immediately.
+**Background：** There is lacking of react related scaffolding tools like vue-cli, enterprise frameworks like egg and code specifications. For novices, it is not suitable for using it immediately.
 
 ### Doc
 - [中文](https://github.com/Baiang/ReactSSR/blob/master/en.md)
