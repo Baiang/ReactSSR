@@ -69,7 +69,7 @@ const nextConfig = {
       const obj = jsonfile.readFileSync(file);
       if(obj.opne){
         jsonfile.writeFile(file, {"opne": false})
-        config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000' }));
+        config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000', delay: 1000 }));
       }
     }
     if (dev) {
