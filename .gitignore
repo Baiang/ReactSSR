@@ -6,6 +6,7 @@ node_modules/
 resources/
 .github/
 build/
+src/next.config.js
 config/.conf.json
 test/coverage
 
