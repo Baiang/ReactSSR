@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "rimraf \"config/.conf.json\" && rimraf \"src/next.config.js\" && cpx \"server/helpers/.conf.json\" \"config/\" && nodemon server/index.ts",
     "dev:eslint": "cross-env ANALYZE=ESLINT next src",
-    "build": "cpx \"config/next.config.js\" \"src/\" -C && delay 1 && npm run build:src && rimraf \"src/next.config.js\"",
-    "build:src": "next build src && tsc --project tsconfig.server.json",
+    "build": "cpx \"config/next.config.js\" \"src/\" -C && delay 1 && npm run next:build && rimraf \"src/next.config.js\"",
+    "next:build": "next build src && tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node build/production-server/server/index.js",
     "next:start":"cpx \"config/next.config.js\" \"src/\" -C && delay 0.5 && cross-env NODE_ENV=production next start src",
     "analyze:bundles": "cross-env ANALYZE=BUNDLES next build src",
