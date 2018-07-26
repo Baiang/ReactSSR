@@ -66,10 +66,14 @@ const nextConfig = {
 
     if(isDev){
       const file = 'config/.conf.json';
-      const obj = jsonfile.readFileSync(file);
-      if(obj.opne){
-        jsonfile.writeFile(file, {"opne": false})
-        config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000', delay: 1000 }));
+      try {
+        const obj = jsonfile.readFileSync(file);
+        if(obj.opne){
+          jsonfile.writeFile(file, {"opne": false})
+          config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000', delay: 1000 }));
+        }
+      } catch (e) {
+
       }
     }
     if (dev) {
