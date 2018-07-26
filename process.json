@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "ReactSSR",
+      "script": "./build/production-server/server/index.js",
+      "watch": true,
+      "node_args": "--harmony",
+      "merge_logs": false,
+      "cwd": "./",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "error_file": "/dev/null",
+      "out_file": "/dev/null",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
