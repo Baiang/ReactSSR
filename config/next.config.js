@@ -10,10 +10,12 @@ const withSass = require('@zeit/next-sass')
 const withLess = require('@zeit/next-less')
 const withCss = require('@zeit/next-css')
 const withSourceMaps = require('@zeit/next-source-maps')
-
+const conf = require('../config/config.global');
 const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
 
 const { ANALYZE } = process.env;
+
+const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
 
 let isDev = true;
 
@@ -70,7 +72,7 @@ const nextConfig = {
         const obj = jsonfile.readFileSync(file);
         if(obj.opne){
           jsonfile.writeFile(file, {"opne": false})
-          config.plugins.push(new OpenBrowserPlugin({ url: 'http://localhost:3000', delay: 1000 }));
+          config.plugins.push(new OpenBrowserPlugin({ url: `http://localhost:${conf[env].port}`, delay: 1000 }));
         }
       } catch (e) {
 
