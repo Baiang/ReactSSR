@@ -1,9 +1,10 @@
 import Router from 'koa-router';
 
-// import mockController from './controllers/mock.controller';
+import mockController from './controllers/mock.controller';
 
 const router = new Router();
-// router.get('/api/get-welcome', mockController.welcome);
+
+router.get('/api/get-welcome', mockController.welcome);
 
 router.nextRoute = (handle) => {
   router.get(/^(?!\/api)/, async (ctx) => {

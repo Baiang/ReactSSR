@@ -9,7 +9,7 @@
     "build": "cpx \"config/next.config.js\" \"src/\" -C && delay 1 && npm run next:build && rimraf \"src/next.config.js\"",
     "next:build": "next build src && tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node build/production-server/server/index.js",
-    "next:start":"cpx \"config/next.config.js\" \"src/\" -C && delay 0.5 && cross-env NODE_ENV=production next start src",
+    "next:start": "cpx \"config/next.config.js\" \"src/\" -C && delay 0.5 && cross-env NODE_ENV=production next start src",
     "analyze:bundles": "cross-env ANALYZE=BUNDLES next build src",
     "analyze:size": "cross-env ANALYZE=SIZE next build src",
     "eslint": "eslint --fix --ext .jsx,.tsx src/",
@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "author": "wiwi",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "@zeit/next-sass": "^0.2.0",
