@@ -23,6 +23,7 @@ const nextApp = next({
 });
 
 const handle = nextApp.getRequestHandler();
+router.ssrCache(nextApp)
 router.nextRoute(handle);
 const app = new Koa();
 
