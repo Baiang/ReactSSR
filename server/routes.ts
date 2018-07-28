@@ -54,6 +54,10 @@ router.ssrCache = (nextApp) => {
   }
 
   router.get('/', (ctx) => renderAndCache(ctx, '/'))
+
+  // preventing /blog from displaying
+  // see https://github.com/zeit/next.js/issues/2682
+  //router.get('/blog/:id', (ctx, id) => renderAndCache(ctx, '/blog2', { id }))
 };
 
 
