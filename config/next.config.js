@@ -21,6 +21,7 @@ let isDev = true;
 
 const nextConfig = {
   distDir: '../build',
+  assetPrefix: conf[env].cdn,
   // custom webpack config
   webpack(config, { dev }) {
     switch (ANALYZE) {
