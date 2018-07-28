@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 import Layout from '../index'
 
 class Index extends Component {
-  static async getInitialProps({ req }) {
+  /*static async getInitialProps({ req }) {
    const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
    return { userAgent }
- }
+ }*/
   constructor (props) {
     super(props)
     this.state = {
