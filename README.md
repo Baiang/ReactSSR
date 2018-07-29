@@ -63,5 +63,4 @@ Styled-jsx syntax highlighting method https://github.com/zeit/styled-jsx
 ### TODOs
 - Add egg
 - Add dva
-- Add CDN
 - Support vue-ssr switch
