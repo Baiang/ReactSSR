@@ -11,7 +11,7 @@
     "start": "cross-env NODE_ENV=production node build/production-server/server/index.js",
     "next:start": "cpx \"config/next.config.js\" \"src/\" -C && delay 0.5 && cross-env NODE_ENV=production next start src",
     "export": "cpx \"config/next.config.js\" \"src/\" -C &&  rimraf dist && delay 1 && npm run next:build && next export src -o dist  && rimraf \"src/next.config.js\"",
-    "export:start": "node app.js",
+    "export:start": "cross-env NODE_ENV=production node app.js",
     "analyze:bundles": "cross-env ANALYZE=BUNDLES next build src",
     "analyze:size": "cross-env ANALYZE=SIZE next build src",
     "eslint": "eslint --fix --ext .jsx,.tsx src/",
