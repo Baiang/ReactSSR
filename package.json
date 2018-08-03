@@ -28,7 +28,6 @@
     "@zeit/next-source-maps": "^0.0.2",
     "@zeit/next-typescript": "^1.1.0",
     "antd": "^3.6.5",
-    "babel-polyfill": "^6.26.0",
     "next": "^6.1.1",
     "node-sass": "^4.9.1",
     "react": "^16.4.1",
