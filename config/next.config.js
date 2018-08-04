@@ -12,6 +12,7 @@ const withCss = require('@zeit/next-css')
 const withSourceMaps = require('@zeit/next-source-maps')
 const conf = require('../config/config.global');
 const commonsChunkConfig = require('@zeit/next-css/commons-chunk-config')
+const es3ifyPlugin = require('es3ify-webpack-plugin');
 
 const { ANALYZE } = process.env;
 
@@ -65,10 +66,18 @@ const nextConfig = {
     config.resolve = {
       ...config.resolve,
       extensions: ['.js', '.jsx', '.tsx', '.json'],
+      alias: {
+          react: 'anujs/dist/ReactIE.js',
+          'react-dom': 'anujs/dist/ReactIE.js',
+          'prop-types': 'anujs/lib/ReactPropTypes',
+          devtools: 'anujs/lib/devtools',
+          'create-react-class': 'anujs/lib/createClass',
+      }
     };
 
     if(isDev){
       const file = 'config/.conf.json';
+      config.plugins.push(new es3ifyPlugin());
       try {
         const obj = jsonfile.readFileSync(file);
         if(obj.opne){
