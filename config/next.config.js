@@ -24,7 +24,7 @@ const nextConfig = {
   distDir: '../build',
   assetPrefix: conf[env].cdn,
   // custom webpack config
-  webpack(config, { dev }) {
+  webpack(config, { dev, isServer, defaultLoaders }) {
     switch (ANALYZE) {
       case 'BUNDLES':
         config.plugins.push(
@@ -50,7 +50,7 @@ const nextConfig = {
 
       return entries
     }
-
+    // defaultLoaders.babel.options.presets
     config.module.rules.push({
       test: /\.(png|jpg|svg|eot|otf|ttf|woff|woff2)$/,
       use: {
