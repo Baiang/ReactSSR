@@ -74,7 +74,6 @@ const nextConfig = {
           'create-react-class': 'anujs/lib/createClass',
       }
     };
-
     if(isDev){
       const file = 'config/.conf.json';
       config.plugins.push(new es3ifyPlugin());
