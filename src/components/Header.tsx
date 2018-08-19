@@ -26,7 +26,7 @@ const Header = ({ router: { pathname } }) => (
         </div>
       </div>
     </header>
-    <style jsx>{`
+    <style>{`
         .navbar_h{
           min-height:100px;
           background: #fff;

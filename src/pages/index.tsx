@@ -140,7 +140,7 @@ class Index extends Component {
           </div>
         </div>
 
-        <style jsx>{`
+        <style>{`
             .function_div{
               margin-top: 40px;
               text-align: center;

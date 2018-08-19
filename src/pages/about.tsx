@@ -19,7 +19,7 @@ export default () => (
         </ui>
       </div>
     </div>
-    <style jsx>{`
+    <style>{`
         .tips{
           margin: 78px 0 95px;
           font-size: 18px;

@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom"><div className="container"> 上海睿渠网络技术有限公司   ©兜礼   沪ICP备15021038号</div></div>
-      <style jsx>{`
+      <style>{`
         .g-footer{
           color: #fff;
           font-size: 14px;
