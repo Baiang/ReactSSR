@@ -13,12 +13,11 @@ export default ({ children, title = '兜礼' }) => (
       <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="icon" href="/static/favicon.ico" />
-      <link rel="stylesheet" href="/_next/static/style.css" />
     </Head>
     <Header />
     { children }
     <Footer />
-    <style jsx>{`
+    <style>{`
       .App-logo {
         animation: App-logo-spin infinite 20s linear;
         height: 80px;
