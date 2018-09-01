@@ -30,8 +30,8 @@
     "antd": "^3.6.5",
     "next": "^7.0.0-canary.7",
     "node-sass": "^4.9.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.0.0",
