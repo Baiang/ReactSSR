@@ -92,6 +92,14 @@
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-bundle-size-analyzer": "^2.7.0"
   },
+  "nodemonConfig":{
+    "watch": [
+        "server/**/*.ts"
+    ],
+    "execMap": {
+        "ts": "ts-node --compilerOptions {\"\"\"module\"\"\":\"\"\"commonjs\"\"\"}"
+    }
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
