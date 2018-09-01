@@ -7,7 +7,7 @@
    ],
    "inline-react-svg",
    "react-html-attrs",
-   "transform-decorators-legacy"
+   ["@babel/plugin-proposal-decorators", { "legacy": true }]
  ],
  "env": {
     "development": {
