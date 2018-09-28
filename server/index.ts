@@ -4,6 +4,7 @@ import bodyParser from 'koa-bodyparser';
 import cors from 'kcors';
 import helmet from 'koa-helmet';
 import logger from 'koa-logger';
+import getPort from 'get-port';
 
 import * as log from './helpers/log';
 import config from '../config/config.global';
@@ -41,9 +42,12 @@ if (!module.parent) {
     .then(() => {
       app.use(router.routes());
       app.use(router.allowedMethods());
-      app.listen(config[env].port, config[env].host, () => {
-        log.info(`API server listening on ${config[env].host}:${config[env].port}, in ${env}`);
-      });
+      (async () => {
+          let port = await getPort({port: [config[env].port, 3000, 3001, 3002]})
+          app.listen(port, config[env].host, () => {
+            log.info(`API server listening on ${config[env].host}:${port}, in ${env}`);
+          });
+      })();
     });
 } else {
   // test

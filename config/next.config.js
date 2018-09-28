@@ -97,7 +97,7 @@ const nextConfig = {
         const obj = jsonfile.readFileSync(file);
         if(obj.opne){
           jsonfile.writeFile(file, {"opne": false})
-          config.plugins.push(new OpenBrowserPlugin({ url: `http://localhost:${conf[env].port}`, delay: 1000 }));
+          config.plugins.push(new OpenBrowserPlugin({ url: `${config[env].host}:${conf[env].port}`, delay: 1000 }));
         }
       } catch (e) {
 
