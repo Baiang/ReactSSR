@@ -29,10 +29,10 @@
     "@zeit/next-typescript": "^1.1.1",
     "antd": "^3.6.5",
     "get-port": "^4.0.0",
-    "next": "^7.0.1",
+    "next": "^7.0.2",
     "node-sass": "^4.9.1",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.2",
@@ -87,7 +87,7 @@
     "styled-jsx-postcss": "^0.2.0",
     "styled-jsx-plugin-postcss": "^1.0.0",
     "supertest": "^3.1.0",
-    "ts-node": "^7.0.0",
+    "ts-node": "^7.0.1",
     "typescript": "^2.9.2",
     "typescript-babel-jest": "^1.0.5",
     "url-loader": "^1.1.1",
