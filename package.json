@@ -91,7 +91,7 @@
     "typescript": "^2.9.2",
     "typescript-babel-jest": "^1.0.5",
     "url-loader": "^1.1.1",
-    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-bundle-analyzer": "^3.6.0",
     "webpack-bundle-size-analyzer": "^2.7.0"
   },
   "nodemonConfig": {
