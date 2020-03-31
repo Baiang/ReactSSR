@@ -29,7 +29,7 @@
     "@zeit/next-typescript": "^1.1.1",
     "antd": "^3.6.5",
     "get-port": "^4.0.0",
-    "next": "^8.0.3",
+    "next": "^9.3.3",
     "node-sass": "^4.9.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
